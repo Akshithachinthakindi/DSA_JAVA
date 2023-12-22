@@ -1,1 +1,1 @@
-# strivers & neetcode ques
+# striver & neetcode ques
