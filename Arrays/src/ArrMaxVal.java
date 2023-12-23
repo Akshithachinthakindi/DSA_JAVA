@@ -5,13 +5,13 @@ public class ArrMaxVal {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        int[] arr = new int[8];
+        int[] arr = new int[5];
         System.out.print("Enter the array elements: ");
         for (int i = 0; i< arr.length; i++) {
             arr[i] = in.nextInt();
         }
 
-        System.out.println("Max Value of the Array is: "+ maxRange(arr, 1, 5));
+        System.out.println("Max Value of the Array is: "+ maxRange(arr, 0, 4));
     }
     static int maxRange(int[] arr, int start, int end) {
         int max = arr[start];
