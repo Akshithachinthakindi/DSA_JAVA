@@ -4,6 +4,7 @@ public class PrintN_Times {
 
     static void myfunc(int i, int num) {
         if (i > num) return;
+        System.out.println("Lily");
         System.out.println(i);
         myfunc(i+1, num);
     }
