@@ -1,34 +1,32 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class SelectionSort {
-    static void selection_sort(int arr[], int n) {
-        for (int i = 0; i < n - 1; i++) {
-            int mini = i;
-            for (int j = i + 1; j < n; j++) {
-                if (arr[j] < arr[mini]) {
-                    mini = j;
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter n: ");
+        int n = in.nextInt();
+        System.out.print("Enter arr elements: ");
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = in.nextInt();
+        }
+        selection_sort(arr, n);
+        System.out.println("Array after sorting: " + Arrays.toString(arr));
+    }
+    static void selection_sort(int[] arr, int n) {
+        for (int i = 0; i < n-1; i++) {
+            int min = i;
+            for (int j = i; j < n; j++) {
+                if (arr[j] < arr[min]) {
+                    min = j;
                 }
             }
-            //swap
-            int temp = arr[mini];
-            arr[mini] = arr[i];
+            int temp = arr[min];
+            arr[min] = arr[i];
             arr[i] = temp;
         }
-
-        System.out.println("After selection sort:");
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println();
-    }
-
-    public static void main(String args[]) {
-
-        int arr[] = {345354,14554,576845,24878,345485,245};
-        int n = arr.length;
-        System.out.println("Before selection sort:");
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println();
-        selection_sort(arr, n);
     }
 }
+// TIME COMPLEXITY : O(N^2)
+// SPACE COMPLEXITY : O(1)
