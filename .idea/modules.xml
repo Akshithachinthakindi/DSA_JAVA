@@ -3,11 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Placement Prep/Arrayss/Arrayss.iml" filepath="$PROJECT_DIR$/Placement Prep/Arrayss/Arrayss.iml" />
       <module fileurl="file://$PROJECT_DIR$/BasicHashing/BasicHashing.iml" filepath="$PROJECT_DIR$/BasicHashing/BasicHashing.iml" />
       <module fileurl="file://$PROJECT_DIR$/Basic_Recursion/Basic_Recursion.iml" filepath="$PROJECT_DIR$/Basic_Recursion/Basic_Recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/Basics/Basics.iml" filepath="$PROJECT_DIR$/Basics/Basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DSA+JAVA.iml" filepath="$PROJECT_DIR$/.idea/DSA+JAVA.iml" />
       <module fileurl="file://$PROJECT_DIR$/Patterns/Patterns.iml" filepath="$PROJECT_DIR$/Patterns/Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Placement Prep/Placement Prep.iml" filepath="$PROJECT_DIR$/Placement Prep/Placement Prep.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting/Sorting.iml" filepath="$PROJECT_DIR$/Sorting/Sorting.iml" />
     </modules>
   </component>
