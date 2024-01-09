@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Scanner;
 
 public class BuyAndSellStock {
@@ -28,3 +29,13 @@ public class BuyAndSellStock {
         return profit;
     }
 }
+=======
+import java.util.Scanner;
+
+public class BuyAndSellStock {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        
+    }
+}
+>>>>>>> origin/master
