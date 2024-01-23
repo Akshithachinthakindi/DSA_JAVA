@@ -15,7 +15,6 @@ public class Armstrong {
     }
     static int armstrong_check(int num) {
         int sum = 0;
-        int org = num;
 
         while (num != 0) {
             int ld = num % 10;
