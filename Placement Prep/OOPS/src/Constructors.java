@@ -33,3 +33,5 @@ public class Constructors {
         s1.Func();
     }
 }
+// we dont have to write/code destructors in java cuz java is efficient enough
+// to detect destructors by itself and destroy the garbage value that isnt necessary.
