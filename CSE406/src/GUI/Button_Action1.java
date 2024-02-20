@@ -51,7 +51,7 @@ class MyFrame extends JFrame implements ActionListener {
 }
 public class Button_Action1 {
     public static void main(String[] args) {
-        MyFrame f = new MyFrame();
+        MyFrames f = new MyFrames();
         f.setTitle("Action on button");
         f.setBounds(200,100,800,600);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

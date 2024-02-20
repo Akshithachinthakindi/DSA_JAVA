@@ -49,16 +49,17 @@ public class ComboBox_demo {
         lb.setForeground(Color.orange);
         c.add(lb);
 
-        btn.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                String s = jcb.getSelectedItem().toString();
-                lb.setText(s);
-//                int s = jcb.getSelectedIndex();
-//                lb.setText(String.valueOf(s));
-            }
-        });
+//        btn.addActionListener(new Action Listener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                String s = jcb.getSelectedItem().toString();
+//                lb.setText(s);
+////                int s = jcb.getSelectedIndex();
+////                lb.setText(String.valueOf(s));
+//            }
+//        });
 
         jf.setVisible(true);
     }
+
 }
