@@ -13,7 +13,7 @@ public class ContainsDuplicate {
         }
         System.out.print(myFunc(arr));
     }
-    static boolean myFunc(int[] arr) {
+    static boolean myFunc(int[] arr) { 
         HashSet <Integer> myHash = new HashSet<>();
         for (int num : arr) {
             if (myHash.contains(num)) return true;

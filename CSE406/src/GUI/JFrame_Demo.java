@@ -19,3 +19,10 @@ public class JFrame_Demo {
         jf.setResizable(false);
     }
 }
+
+
+// setter method is important than getter method
+// constructor and setter method
+// collections -- mutable
+// strings -- immutable
+
